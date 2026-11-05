@@ -1,4 +1,4 @@
-import fs from 'fs';
+import { readTextFile } from '../FileSystem/FileSystem.js';
 import Book from './Book.js';
 
 export default class BookParser {
@@ -9,7 +9,7 @@ export default class BookParser {
     }
 
     async load() {
-        this.text = await fs.readFile(this.path);
+        this.text = await readTextFile(this.path);
         this.text = this.text.replace(/\r\n/g, '\n');
         this._parse();
         return new Book(this.text, this.chapters);
