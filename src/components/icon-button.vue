@@ -17,9 +17,9 @@ export default {
 @import "../styles/md-color.less";
 
 .button {
-    width: 22vh;
-    height: 22vh;
-    border-radius: 7vh;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 3vw;
     justify-content: center;
     align-items: center;
     background-color: @neutral;

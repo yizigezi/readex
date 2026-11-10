@@ -102,7 +102,7 @@ export default {
             mode: await storage.get('mode') || 'page',
             fontSize: this.isLarger ? 12 : 10,
             lineHeight: this.isLarger ? 16 : 14,
-            viewportWidth: w - 0.39 * h,
+            viewportWidth: w * 0.86,
             viewportHeight: h
         });
 
