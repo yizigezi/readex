@@ -7,7 +7,9 @@
 <style lang="less" scoped>
 .wrapper {
     height: 100vh;
-    padding: 7vh 12vh 7vh 5vh;
+    width: 12vw;
+    flex-shrink: 0;
+    padding: 7vh 1vw 7vh 1vw;
     flex-direction: column;
     justify-content: space-between;
 }
