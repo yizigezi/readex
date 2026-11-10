@@ -84,9 +84,5 @@ tools/build-fs-plugin.sh   # 产出并装入 libs/libjsapi_fs.so，附 ELF 自�
 
 ## 关于
 
-作者：adogecheems  
+原作者：adogecheems  
 许可证：AGPLv3
-
-"Doge" 是“词典笔 OS 通用生态系统”的意思 (Dictpen OS Generic Ecosystem) 🐶
-
-如果对你有什么帮助，请给我一个 star ⭐️～
